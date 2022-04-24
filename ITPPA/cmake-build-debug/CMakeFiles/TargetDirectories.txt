@@ -1,0 +1,3 @@
+C:/Users/Omniscience is Dead/ITPPA/cmake-build-debug/CMakeFiles/ITPPA.dir
+C:/Users/Omniscience is Dead/ITPPA/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Omniscience is Dead/ITPPA/cmake-build-debug/CMakeFiles/rebuild_cache.dir

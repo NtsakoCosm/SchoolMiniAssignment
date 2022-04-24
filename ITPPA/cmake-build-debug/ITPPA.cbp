@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ITPPA"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Omniscience is Dead/ITPPA/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Omniscience is Dead\ITPPA\cmake-build-debug\Makefile&quot; VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Omniscience is Dead\ITPPA\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Omniscience is Dead\ITPPA\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Omniscience is Dead\ITPPA\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ITPPA">
+				<Option output="C:/Users/Omniscience is Dead/ITPPA/cmake-build-debug/ITPPA.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Omniscience is Dead/ITPPA/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30037\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Omniscience is Dead\ITPPA\cmake-build-debug\Makefile&quot; VERBOSE=1 ITPPA"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Omniscience is Dead\ITPPA\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Omniscience is Dead\ITPPA\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Omniscience is Dead\ITPPA\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ITPPA/fast">
+				<Option output="C:/Users/Omniscience is Dead/ITPPA/cmake-build-debug/ITPPA.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Omniscience is Dead/ITPPA/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30037\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Omniscience is Dead\ITPPA\cmake-build-debug\Makefile&quot; VERBOSE=1 ITPPA/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Omniscience is Dead\ITPPA\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Omniscience is Dead\ITPPA\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Omniscience is Dead\ITPPA\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Omniscience is Dead/ITPPA/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Omniscience is Dead\ITPPA\cmake-build-debug\Makefile&quot; VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Omniscience is Dead\ITPPA\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Omniscience is Dead\ITPPA\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Omniscience is Dead\ITPPA\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Omniscience is Dead/ITPPA/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Omniscience is Dead\ITPPA\cmake-build-debug\Makefile&quot; VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Omniscience is Dead\ITPPA\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Omniscience is Dead\ITPPA\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Omniscience is Dead\ITPPA\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Omniscience is Dead/ITPPA/cal.cpp">
+			<Option target="ITPPA"/>
+		</Unit>
+		<Unit filename="C:/Users/Omniscience is Dead/ITPPA/cmake-build-debug/nn.cpp">
+			<Option target="ITPPA"/>
+		</Unit>
+		<Unit filename="C:/Users/Omniscience is Dead/ITPPA/cmake-build-debug/q2.cpp">
+			<Option target="ITPPA"/>
+		</Unit>
+		<Unit filename="C:/Users/Omniscience is Dead/ITPPA/cmake-build-debug/teach.cpp">
+			<Option target="ITPPA"/>
+		</Unit>
+		<Unit filename="C:/Users/Omniscience is Dead/ITPPA/guessing game.cpp">
+			<Option target="ITPPA"/>
+		</Unit>
+		<Unit filename="C:/Users/Omniscience is Dead/ITPPA/lec.cpp">
+			<Option target="ITPPA"/>
+		</Unit>
+		<Unit filename="C:/Users/Omniscience is Dead/ITPPA/main.cpp">
+			<Option target="ITPPA"/>
+		</Unit>
+		<Unit filename="C:/Users/Omniscience is Dead/ITPPA/volume.cpp">
+			<Option target="ITPPA"/>
+		</Unit>
+		<Unit filename="C:/Users/Omniscience is Dead/ITPPA/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
